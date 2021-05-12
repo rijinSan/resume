@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume Rijin</title>
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+<style>
+* {
+  /*box-sizing:border-box;
+  font-family: sans-serif;*/
+}
+body{
+	/*background-color:#f6f6f6;*/
+	font-family: sans-serif;
+	margin: 5px 0;
+}
+.left {
+  background-color:#f6f6f6;
+  padding:20px;
+  width:33%; /* The width is 20%, by default */
+  text-align: center;
+}
+
+
+.right {
+  background-color:#FFF;
+  padding:20px;
+  width:67%; /* The width is 20%, by default */
+}
+.container{
+	/*border : solid 1px #ddd;*/
+	max-width: 1264px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+}
+.photo{
+	width: 200px;
+    height: 200px;
+    border: solid 2px #08a9f6;
+    border-radius: 100px;
+    margin: 0 auto;
+    background: url(pic.png),#fff;
+    background-repeat: no-repeat;
+    background-size: 170px 212px;
+    background-position-x: 14px;
+}
+.nme{
+	color: #08a9f6;
+	font-size: 50px;
+	margin-top: 15px;
+}
+.rol{
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.grp{
+	padding-left: 10px;
+}
+.l-grp{
+	padding: 10px 15px;
+}
+.title{
+	border-bottom: solid 2px black;
+    text-align: right;
+    font-size: 20px;
+	color: #08a9f6;
+    font-weight: 300;
+    position: relative;
+}
+.content{
+	padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.left-content{
+	margin-top: 40px;
+	text-align: left;
+}
+.content .subtitile{
+	margin-bottom: 10px;
+	color: #0969ae;
+    font-weight: 300;
+}
+.content .desc{
+	margin-top: 0px;
+}
+.p-info{
+	margin-left: 15px;
+}
+.p-info p > span{
+	margin-left: 15px;
+}
+.p-info .subtitile{
+	margin-bottom: 10px;
+	color: #0969ae;
+    font-weight: 300;
+    font-size: 16px;
+}
+.p-info .desc{
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+.left-icon{
+	width: 45px;
+    height: 45px;
+    border: solid 1px black;
+    border-radius: 25px;
+    position: absolute;
+    top: 1px;
+    background: white;
+    left: -1px;
+}
+.left-icon i{
+	margin-right: 7px;
+    margin-top: 9px;
+    font-size: 26px;
+}
+.c-icon{
+	float: left;
+	color: #08a9f6;
+    font-size: 20px;
+}
+.position p{
+	margin-bottom: 5px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .right {
+    /*width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="left">
+			  <div class="photo"></div>
+			  <div class="nme">RIJIN T</div>
+			  <div class="rol">Lead Engineer</div>
+			  <div class="l-grp">
+			  	<div class="title">
+			  		BIOGRAPHY
+			  		<div class="left-icon"><i class="fa fa-newspaper-o"></i></div>
+			  	</div>
+			  	<div class="left-content">
+			  		<p align="left">Iam an experienced developer.</p>
+			  		<p align="left">I have excellent designing and coding skills, as well as an ability to convert client requirement in to exiting online applications.</p>
+			  	</div>
+			  </div>
+			  <div class="l-grp">
+			  	<div class="title">
+			  		CONTACT ME
+			  		<div class="left-icon">
+			  			<i class="fa fa-address-card"></i>
+			  		</div>
+			  	</div>
+			  	<div class="left-content">
+			  		<div class="p-info">
+				  		<p><i class="fa fa-envelope c-icon" aria-hidden="true"></i> <span>rijint.knr@gmail.com</span></p>
+				  		<p><i class="fa fa-phone-square c-icon" aria-hidden="true"></i> <span>+91 9633201821</span></p>
+				  		<p><i class="fa fa-skype c-icon" aria-hidden="true"></i> <span>rijintknr</span></p>
+				  		<p><i class="fa fa-linkedin-square c-icon" aria-hidden="true"></i> <span>https://www.linkedin.com/in/rijin-t-a45a81a6</span></p>
+				  	</div>
+			  	</div>
+			  </div>
+			  <div class="l-grp">
+			  	<div class="title">
+			  		PERSONAL INFO
+			  		<div class="left-icon">
+			  			<i class="fa fa-list-alt" aria-hidden="true"></i>
+			  		</div>
+			  	</div>
+			  	<div class="left-content">
+			  		<div class="p-info">
+			  			<h3 class="subtitile">Father's Name</h3>
+				  		<p class="desc">Sureshan T</p>
+				  		<h3 class="subtitile">Date of Birth</h3>
+				  		<p class="desc">01-06-1987</p>
+				  		<h3 class="subtitile">Gender</h3>
+				  		<p class="desc">Male</p>
+				  		<h3 class="subtitile">Nationality</h3>
+				  		<p class="desc">Indian</p>
+				  		<h3 class="subtitile">Martital Status</h3>
+				  		<p class="desc">Married</p>
+				  		<h3 class="subtitile">Address</h3>
+				  		<p class="desc">Thundikkoth House,<br>P O Alavil, <br>Kannur, Kerala.</p>
+				  		<h3 class="subtitile">Hobbies</h3>
+				  		<p class="desc">Listening Music, Cricket, Football etc.</p>
+			  		</div>
+			  	</div>
+			  </div>
+			</div>
+
+			<div class="right">
+			  <div class="grp">
+			  	<div class="title">
+			  		SKILLS
+			  		<div class="left-icon"><i class="fa fa-code" aria-hidden="true"></i></div>
+			  	</div>
+			  	<div class="content">
+			  		<h3 class="subtitile">Programming Languages</h3>
+			  		<p class="desc">Node JS, PHP</p>
+
+			  		<h3 class="subtitile">Web Technologies</h3>
+			  		<p class="desc">VueJS, Javascript, Jquery, HTML, CSS, Bootstrap, EJS</p>
+
+			  		<h3 class="subtitile">Database</h3>
+			  		<p class="desc">MySQL, MongoDB</p>
+
+			  		<h3 class="subtitile">Web Services</h3>
+			  		<p class="desc">JSON, HTTP, XML</p>
+
+			  		<h3 class="subtitile">Amazon Services</h3>
+			  		<p class="desc">ECS, Lambda, S3, SQS, REDIS</p>
+
+			  		<h3 class="subtitile">Version Control & Project Management</h3>
+			  		<p class="desc">GIT, SVN, JIRA</p>
+			  	</div>
+			  </div>
+			  <div class="grp">
+			  	<div class="title">
+			  		PROFESSIONAL SUMMARY
+			  		<div class="left-icon"><i class="fa fa-cogs" aria-hidden="true"></i></div>
+			  	</div>
+			  	<div class="content">
+			  		<div class="position">
+				  		<h3 class="subtitile">Technical Lead</h3>
+				  		<p>Dec 2018 to Present</p>
+				  		<p class="desc">Rybbon Inc, UL-Cyberpark, Calicut, Kerala.</p>
+			  		</div>
+			  		<div class="position">
+				  		<h3 class="subtitile">Sr. Software Developer</h3>
+				  		<p>Dec 2015 to Sep 2018</p>
+				  		<p class="desc">Prohaktiv Inc, Pune.</p>
+				  	</div>
+			  		<div class="position">
+				  		<h3 class="subtitile">Software Developer</h3>
+				  		<p>Jun 2014 to Dec 2015</p>
+				  		<p class="desc">Nivid Solutions, Kannur, Kerala.</p>
+				  	</div>
+			  		<div class="position">
+				  		<h3 class="subtitile">Jr. Programmer</h3>
+				  		<p>Sep 2011 to May 2014</p>
+				  		<p class="desc">DITS, Kannur, Kerala.</p>
+				  	</div>
+			  	</div>
+			  </div>
+			  <div class="grp">
+			  	<div class="title">
+			  		WORK EXPERIENCE
+			  		<div class="left-icon"><i class="fa fa-cubes" aria-hidden="true"></i></div>
+			  	</div>
+			  	<div class="content">
+			  		<div class="project">
+				  		<h3 class="subtitile">Partner Integration</h3>
+				  		<p class="desc">
+				  			Working on Partners integration and improvements. Integrated leading Marketing platforms like Marketo, Hubspot and Survey Platforms like Quatrics, SurveyMonkey, SurveyGizmo, SurveySparrow, Voxco, Sawtooth Software etc.
+				  		 </p>
+				  		 Technologies:- NodeJS, Sails JS, VueJS, MYSQL, Redis etc.
+			  		</div>
+			  		<div class="project">
+			  			<h3 class="subtitile">E-commerce Application</h3>
+			  			<p class="desc">E-commerce application for Psprint - one of the leading online printing company in US. </p>
+			  			Technologies:- NodeJS, StrongLoop, EJS, MYSQL, Redis
+			  		</div>
+			  		<div class="project">
+				  		<h3 class="subtitile">DesignTool</h3>
+				  		<p class="desc">Developed designtool for Psprint. Using that customers can design their own business cards, Postcards, Stickers, Greeting Cards etc. 
+				  		</p>
+				  		Technologies:- NodeJS, Express, EJS, Javascript, MongoDB, Redis, Fabric JS
+			  		</div>
+			  	</div>
+			  </div>
+			  <div class="grp">
+			  	<div class="title">
+			  		EDUCATION
+			  		<div class="left-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+			  	</div>
+			  	<div class="content">
+			  		<h3 class="subtitile">Bachelor of Computer Appication</h3>
+			  		<p class="desc">Kannur University, Kerala</p>
+			  		<h3 class="subtitile">Higher Secondary</h3>
+			  		<p class="desc">Govt Town Higher Secondary School, Kannur.</p>
+			  		<h3 class="subtitile">SSLC</h3>
+			  		<p class="desc">Azhikode High School- Azhikode, Kannur.</p>
+			  	</div>
+			  </div>
+			  <div class="grp">
+			  	<div class="title">
+			  		DECLARATION
+			  		<div class="left-icon"><i class="fa fa-pencil" aria-hidden="true"></i></div>
+			  	</div>
+			  	<div class="content">
+			  		<p align="left">I hereby, declare that all the information furnished above is true to the best of my knowledge and belief.</p>
+			  		<p align="right">Rijin T</p>
+			  	</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
